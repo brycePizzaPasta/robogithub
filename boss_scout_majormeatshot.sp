@@ -207,7 +207,7 @@ MakeGiantscout(client)
 	
 	TF2_RemoveCondition(client, TFCond_CritOnFirstBlood);
 	TF2_AddCondition(client, TFCond_SpeedBuffAlly, 0.1);
-	TF2_Addcondition(client, TFCond_CritCanteen);
+	TF2_AddCondition(client, TFCond_CritCanteen);
 	
 	PrintHintText(client, ROBOT_TIPS);
 	// SetEntProp(client, Prop_Send, "m_bForcedSkin", 1);
@@ -256,7 +256,7 @@ stock GiveGiantPyro(client)
 		{
 			TF2Attrib_RemoveAll(Scattergun);
 			TF2Attrib_SetByName(Scattergun, "killstreak tier", 1.0);
-			TF2Attrib_SetByName(Scattergun, "dmg penalty vs players", 0.75)
+			TF2Attrib_SetByName(Scattergun, "dmg penalty vs players", 0.75);
 			TF2Attrib_SetByName(Scattergun, "fire rate bonus", 1.5);
 			TF2Attrib_SetByName(Scattergun, "clip size bonus", 1.0);
 			TF2Attrib_SetByName(Scattergun, "Reload time increased", 1.5);
