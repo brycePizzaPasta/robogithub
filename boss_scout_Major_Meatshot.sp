@@ -168,7 +168,7 @@ MakeGiantscout(client)
 	CreateTimer(0.0, Timer_Switch, client);
 	SetModel(client, GSCOUT);
 	
-	int iHealth = 4000;
+	int iHealth = 4500;
 		
 	int MaxHealth = 125;
 	//PrintToChatAll("MaxHealth %i", MaxHealth);
@@ -185,7 +185,7 @@ MakeGiantscout(client)
 	SetEntProp(client, Prop_Send, "m_bIsMiniBoss", true);
 	TF2Attrib_SetByName(client, "max health additive bonus", float(iAdditiveHP));
 	TF2Attrib_SetByName(client, "ammo regen", 100.0);
-	TF2Attrib_SetByName(client, "move speed penalty", 0.75);
+	TF2Attrib_SetByName(client, "move speed penalty", 0.8);
 	TF2Attrib_SetByName(client, "damage force reduction", 1.5);
 	TF2Attrib_SetByName(client, "airblast vulnerability multiplier", 0.65);
 	TF2Attrib_SetByName(client, "airblast vertical vulnerability multiplier", 1.0);
@@ -256,7 +256,7 @@ stock GiveGiantPyro(client)
 		{
 			TF2Attrib_RemoveAll(Scattergun);
 			TF2Attrib_SetByName(Scattergun, "killstreak tier", 1.0);
-			TF2Attrib_SetByName(Scattergun, "dmg penalty vs players", 0.75);
+			TF2Attrib_SetByName(Scattergun, "dmg penalty vs players", 1.0);
 			TF2Attrib_SetByName(Scattergun, "fire rate bonus", 1.5);
 			TF2Attrib_SetByName(Scattergun, "clip size bonus", 1.0);
 			TF2Attrib_SetByName(Scattergun, "Reload time increased", 1.5);
