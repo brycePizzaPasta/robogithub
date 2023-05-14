@@ -211,7 +211,7 @@ stock GiveBigRoboJbird(client)
 			TF2Attrib_SetByName(SniperRifle, "sniper fires tracer", 1.0);
 			//TF2Attrib_SetByName(SniperRifle, "lunchbox adds minicrits", 3.0);
 			//TF2Attrib_SetByName(SniperRifle, "apply z velocity on damage", 550.0);
-			TF2Attrib_SetByName(SniperRifle, "faster reload rate", 2.0);
+			TF2Attrib_SetByName(SniperRifle, "faster reload rate", 1.25);
 			
 			//TF2Attrib_SetByName(SniperRifle, "heal on hit for rapidfire", 25.0);
 			// TF2Attrib_SetByName(SniperRifle, "headshot damage increase", 1.33);
