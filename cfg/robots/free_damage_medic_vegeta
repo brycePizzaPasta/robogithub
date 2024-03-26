@@ -7,7 +7,7 @@
 	"deathtip" "Vegeta"
 	"role" "Damage"
  	"subclass" "Saiyan"
-	"tips" "Energy barrage using your primary\nUse melee in close ranges"
+	"tips" "Energy barrage using your primary"
 	"health" "2500"
 	"health_bonus_per_player" "50"
 	"dificulty" "3"
@@ -63,8 +63,8 @@
                 "Projectile speed increased" "1.8"
                 "fire rate bonus" "0.6"
                 "projectile spread angle penalty" "2.0"
-                "dmg penalty vs players" "2.0"
-                "faster reload rate" "1.5"
+                "dmg penalty vs players" "2.5"
+                "faster reload rate" "1.75"
                 "dmg penalty vs buildings" "0.2"
                 }
         }
@@ -75,7 +75,7 @@
                 {
                 "itemindex" "31401"
                 "paint" "Australium Gold"
-                "style" "1.0"
+                "style" "0.0"
                 "scale" "0.85"
                 }
                 "Dapper"
